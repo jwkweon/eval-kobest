@@ -1,4 +1,4 @@
-from . import dummy, gpt2, gpt3, huggingface, textsynth
+from . import dummy, huggingface
 
 MODEL_REGISTRY = {
     # "hf": gpt2.HFLM,
