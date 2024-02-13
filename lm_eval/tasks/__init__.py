@@ -1,11 +1,10 @@
 from pprint import pprint
 from typing import List, Union
 
+import lm_eval.base
 import sacrebleu
 
-import lm_eval.base
-
-from . import json, kobest
+from . import kobest
 
 ########################################
 # All tasks : Kobest
